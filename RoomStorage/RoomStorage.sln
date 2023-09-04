@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomStorage", "RoomStorage\RoomStorage.csproj", "{2A448BE4-B6D0-4E54-8795-2CC74FD77B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{B835456B-5F79-4F60-B2F5-56701084E55F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{CD0F0202-218B-4938-BC6B-B14749E88EF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A448BE4-B6D0-4E54-8795-2CC74FD77B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A448BE4-B6D0-4E54-8795-2CC74FD77B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A448BE4-B6D0-4E54-8795-2CC74FD77B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A448BE4-B6D0-4E54-8795-2CC74FD77B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B835456B-5F79-4F60-B2F5-56701084E55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B835456B-5F79-4F60-B2F5-56701084E55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B835456B-5F79-4F60-B2F5-56701084E55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B835456B-5F79-4F60-B2F5-56701084E55F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0F0202-218B-4938-BC6B-B14749E88EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0F0202-218B-4938-BC6B-B14749E88EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0F0202-218B-4938-BC6B-B14749E88EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0F0202-218B-4938-BC6B-B14749E88EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

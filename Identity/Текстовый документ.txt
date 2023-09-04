@@ -1,0 +1,5 @@
+$env:APP_PORT=5244; $env:CONNECTION_STRING="Host=db;Port=5432;Database=identity;Username=postgres;Password=2335"; $env:DB_PORT=5422 ;docker-compose up --build
+RUN dotnet restore "Application/Application.csproj"
+RUN dotnet restore "Api/Api.csproj"
+RUN dotnet restore "Infrastructure/Infrastructure.csproj"
+RUN dotnet restore "Domain/Domain.csproj"
